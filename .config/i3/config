@@ -47,7 +47,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+a kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec rofi -show run -terminal terminator -location 2 -width 60 -hide-scrollbar -theme launcher
+bindsym $mod+d exec rofi -show run -terminal terminator -location 2 -width 60 -hide-scrollbar --theme /home/leo/.config/rofi/config.rasi
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
