@@ -316,6 +316,6 @@ type = custom/script
 exec = ~/.config/polybar/isrunning-openvpn.sh
 interval = 2
 format-underline = ${colors.underline-two}
-click-left = papi-vpn-polybar
+click-left = papi-vpn
 
 ; vim:ft=dosini
