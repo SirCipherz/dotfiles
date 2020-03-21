@@ -25,7 +25,7 @@ foreground = #dfdfdf
 foreground-alt = #555
 primary = #5a646d
 secondary = #2e4150
-alert = #bd2c40
+alert = #ef3b3b
 underline-one = #5a646d
 underline-two = #2e4150
 volume = #2f3e65
@@ -292,12 +292,12 @@ warn-temperature = 60
 
 format = <label>
 format-underline = ${colors.underline-one}
-format-warn = 🚨 <label-warn>
+format-warn = <label-warn>
 format-warn-underline = ${self.format-underline}
 
 label = %temperature-c%
 label-warn = %temperature-c%
-label-warn-foreground = ${colors.secondary}
+label-warn-foreground = ${colors.alert}
 
 [settings]
 screenchange-reload = true
