@@ -62,7 +62,7 @@ font-3 = "Symbola:size=9"
 
 modules-left = i3 xbacklight alsa
 modules-center = 
-modules-right = filesystem memory cpu wlan eth battery vpn temperature date
+modules-right = filesystem memory cpu wlan eth battery vpn temperature alarm date
 
 tray-position = right
 tray-padding = 2
@@ -317,5 +317,12 @@ exec = ~/.config/polybar/isrunning-openvpn.sh
 interval = 2
 format-underline = ${colors.underline-two}
 click-left = papi-vpn
+
+[module/alarm]
+type = custom/script
+exec = echo ⏰
+interval = 5
+format-underline = ${colors.underline-two}
+click-left = ~/.config/polybar/alarm.sh
 
 ; vim:ft=dosini
