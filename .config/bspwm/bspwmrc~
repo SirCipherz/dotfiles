@@ -33,6 +33,3 @@ xrdb -merge /home/leo/.Xresources &
 
 # Shortkeys
 sxhkd &
-
-# mpd server
-mpd &

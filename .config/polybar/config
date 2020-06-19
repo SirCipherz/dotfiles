@@ -1,13 +1,15 @@
 [colors]
 background = #00000000
 foreground = #D8DEE9
-bg-2 = #3b4252
+bg-2 = #376466
 bg-3 = #434c5e
+;bg-3 = #0d2526
 bg-4 = #4c566a
-nord7 = #415B71
-nord8 = #587792
+;bg-4 = #123536
+nord7 = #1e4749
+nord8 = #275a5d
 nord9 = #81a1c1
-nord10 = #5e81ac
+nord10 = #448b94
 fg-2 = #e5e9f0
 fg-3 = #eceff4
 
@@ -78,7 +80,7 @@ pseudo-transparency = true
 type = internal/bspwm
 
 label-focused-background = ${colors.nord10}
-label-empty-background = ${colors.bg-3}
+label-empty-background = ${colors.nord7}
 label-occupied-background = ${colors.bg-2}
 
 label-focused = %name%
