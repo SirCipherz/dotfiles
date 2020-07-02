@@ -10,4 +10,5 @@ cp -r ~/.config/sxhkd ./.config/     # sxhkd
 # othaers
 cp ~/.zshrc ./                       # zsh
 cp -r ~/.emacs* ./                   # Emacs
+cp ~/.emacs ./
 cp ~/.Xresources ./                  # Xresources
