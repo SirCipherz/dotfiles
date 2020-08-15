@@ -5,3 +5,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Alias
 alias qlop='qlop -H'
+alias du='du -h'
+alias df='df -h'
+alias ls='ls -lhB --color=auto'

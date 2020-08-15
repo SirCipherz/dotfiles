@@ -7,7 +7,7 @@ cp -r ~/.config/polybar/ ./.config/  # Polybar
 cp ~/.config/picom.conf ./.config/   # Compton
 cp -r ~/.config/sxhkd ./.config/     # sxhkd
 
-# othaers
+# others
 cp ~/.zshrc ./                       # zsh
 cp ~/.emacs ./
 cp ~/.Xresources ./                  # Xresources

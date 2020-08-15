@@ -1,7 +1,9 @@
 #!/usr/bin/bash
 
 cp -r .config ~/
-cp -r .emacs.d ~/
+cp -r .wallpapers ~/
+
+cp .emacs ~/
 cp .vimrc ~/
 cp .zshrc ~/
 cp .Xresources ~/
