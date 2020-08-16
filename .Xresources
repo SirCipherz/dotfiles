@@ -45,5 +45,5 @@ URxvt.scrollBar: false
 !Xcursor.theme: oreo_blue_cursor
 
 ! font
-! st.font:	Liberation Mono:pixelsize=12
+emacs.font:	Liberation Mono 10
 ! st.alpha:	1.0
