@@ -7,4 +7,4 @@ source $ZSH/oh-my-zsh.sh
 alias qlop='qlop -H'
 alias du='du -h'
 alias df='df -h'
-alias ls='ls -lhB --color=auto'
+alias ls='ls -lhB --color=auto --hide="#*#"'
