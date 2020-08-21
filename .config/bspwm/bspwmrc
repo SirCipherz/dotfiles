@@ -13,6 +13,7 @@ bspc config gapless_monocle      true
 # Rules
 bspc rule -a feh state=floating
 bspc rule -a Emacs state=tiled
+bspc rule -a zathura state=tiled
 
 # Set the cool cursor
 xsetroot -cursor_name left_ptr &
