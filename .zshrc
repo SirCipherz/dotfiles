@@ -44,6 +44,7 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 alias reboot='sudo reboot'
+
 alias poweroff='sudo poweroff'
 alias plz='sudo'
-alias cpb='rsync info=progress2'
+alias cpb='rsync --info=progress2'
