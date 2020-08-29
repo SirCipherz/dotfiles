@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 cp -r .config ~/
 cp -r .wallpapers ~/
