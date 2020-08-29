@@ -7,6 +7,9 @@ cp -r ~/.config/polybar/ ./.config/  # Polybar
 cp ~/.config/picom.conf ./.config/   # Compton
 cp -r ~/.config/sxhkd ./.config/     # sxhkd
 
+# xdg
+cp ~/.config/user-dirs.dirs ./.config/ # xdg default directories
+
 # others
 cp ~/.zshrc ./                       # zsh
 cp ~/.emacs ./
