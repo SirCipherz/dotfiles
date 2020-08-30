@@ -124,3 +124,6 @@ super + {Left,Down,Up,Right}
 # slock
 ctrl + shift + l
 	slock
+# shutdown
+super + shift + s
+      sudo $(echo -n "poweroff\nreboot" | dmenu)
