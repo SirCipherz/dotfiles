@@ -48,4 +48,3 @@ alias poweroff='sudo poweroff'
 alias plz='sudo'
 alias cpb='rsync --info=progress2'
 alias upgrade="sudo emerge -uDNa --with-bdeps=y @world"
-alias doas='sudo'
