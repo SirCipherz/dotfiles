@@ -28,6 +28,11 @@ ex (){
     fi
 }
 
+# Search in badwolf
+search (){
+    badwolf "https://duckduckgo.com/?q=$(echo $@ | sed 's/ /+/g')" &
+}
+
 #
 # Alias
 #
