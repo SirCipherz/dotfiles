@@ -16,9 +16,9 @@ cp -v ~/.emacs ./                       # emacs
 cp -v ~/.Xresources ./                  # Xresources
 
 # portage
-sudo cp -v /etc/portage/make.conf portage/make.conf                          # make.conf
-cp -v /etc/portage/package.accept_keywords portage/packages.accept_keywords  # accept_keywords
-cp -v /etc/portage/package.license portage/packages.license                  # license
-cp -v /etc/portage/package.mask portage/packages.mask                        # mask
-cp -v /etc/portage/package.use portage/packages.use                          # use
-cp -rv /etc/portage/savedconfig portage/                                     # savedconfig
+sudo cp -v /etc/portage/make.conf portage/make.conf                         # make.conf
+cp -v /etc/portage/package.accept_keywords portage/package.accept_keywords  # accept_keywords
+cp -v /etc/portage/package.license portage/package.license                  # license
+cp -v /etc/portage/package.mask portage/package.mask                        # mask
+cp -v /etc/portage/package.use portage/package.use                          # use
+cp -rv /etc/portage/savedconfig portage/                                    # savedconfig
