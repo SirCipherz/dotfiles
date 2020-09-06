@@ -1,11 +1,11 @@
 #!/bin/bash
 
-cp -r .config ~/
-cp -r .wallpapers ~/
+cp -vr .config ~/
+cp -vr .wallpapers ~/
 
-cp .emacs ~/
-cp .vimrc ~/
-cp .zshrc ~/
-cp .Xresources ~/
+cp -v .emacs ~/
+cp -v .vimrc ~/
+cp -v .zshrc ~/
+cp -v .Xresources ~/
 
 echo "Everything is installed"
