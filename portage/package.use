@@ -24,3 +24,4 @@ app-text/texlive-core xetex
 media-libs/freetype static-libs utils fontforge
 >=net-wireless/lorcon-0.0_p20150109 python
 net/analyzer/nmap ipv6 libssh2 nping ncat
+net-fs/nfs-utils -ipv6
