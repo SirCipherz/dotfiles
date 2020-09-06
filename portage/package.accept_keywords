@@ -3,3 +3,5 @@ dev-libs/libressl
 www-client/qutebrowser ~amd64
 dev-python/pypeg2 ~amd64
 app-misc/nnn ~amd64
+dev-db/sqlitebrowser ~amd64
+app-editors/qhexedit2 ~amd64
