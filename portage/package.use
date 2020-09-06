@@ -1,0 +1,26 @@
+media-sound/cmus ffmpeg
+app-editors/emacs games imagemagick mailutils dynamic-loading threads libxml2 xft
+app-emacs/emacs-common-gentoo games
+media-video/ffmpeg encode libdrm mp3 network openal opus ssh svg vorbis x264 x265 sdl
+games-misc/fortune-mod offensive
+games-misc/fortune-mod-kernelcookies offensive
+dev-vcs/git emacs mediawiki
+sys-boot/grub fonts mount themes truetype sdl
+app-admin/keepassxc autotype browser
+media-sound/mpd curl dbus ffmpeg flac nfs openal opus pipe soundcloud unicode
+media-sound/ncmpcpp visualizer
+mail-client/neomutt notmuch
+x11-terms/rxvt-unicode 256-color blink font-styles mousewheel unicode3 fading-colors xft
+sci-astronomy/stellarium nls gps media stars
+www-client/w3m imlib
+x11-terms/xterm sixel unicode
+media-video/mpv -cdda
+>=dev-python/PyQt5-5.14.2-r1 sql declarative webchannel
+>=dev-qt/qtwebengine-5.14.2 widgets
+>=dev-qt/qtwebchannel-5.14.2 qml
+>=sys-libs/zlib-1.2.11-r2 minizip
+app-text/texlive fr en graphics png science tex4ht truetype epspdf extra
+app-text/texlive-core xetex
+media-libs/freetype static-libs utils fontforge
+>=net-wireless/lorcon-0.0_p20150109 python
+net/analyzer/nmap ipv6 libssh2 nping ncat

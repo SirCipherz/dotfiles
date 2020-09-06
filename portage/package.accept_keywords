@@ -1,0 +1,5 @@
+sys-kernel/ck-sources ~amd64
+dev-libs/libressl
+www-client/qutebrowser ~amd64
+dev-python/pypeg2 ~amd64
+app-misc/nnn ~amd64
