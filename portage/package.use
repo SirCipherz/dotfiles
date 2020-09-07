@@ -23,3 +23,5 @@ app-text/texlive fr en graphics png science tex4ht truetype epspdf extra
 app-text/texlive-core xetex
 media-libs/freetype static-libs utils fontforge
 >=net-wireless/lorcon-0.0_p20150109 python
+app-crypt/gnupg tools doc
+app-admin/keepassxc -autotype -browser -network
