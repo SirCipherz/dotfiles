@@ -25,3 +25,4 @@ media-libs/freetype static-libs utils fontforge
 >=net-wireless/lorcon-0.0_p20150109 python
 app-crypt/gnupg tools doc
 app-admin/keepassxc -autotype -browser -network
+media-gfx/feh exif -curl
