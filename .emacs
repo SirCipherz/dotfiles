@@ -48,4 +48,4 @@
 (menu-bar-mode -1) ;; Removing the menu bar
 (tool-bar-mode -1) ;; Removing the tool-bar
 
-(setq make-backup-files nil)
+(setq make-backup-files nil) ;; Disable all kind of backup
