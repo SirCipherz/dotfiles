@@ -26,3 +26,4 @@ media-libs/freetype static-libs utils fontforge
 app-crypt/gnupg tools doc
 app-admin/keepassxc -autotype -browser -network
 media-gfx/feh exif -curl
+dev-qt/qtmultimedia widgets
