@@ -28,10 +28,10 @@ nitrogen --set-zoom-fill "/home/leo/.wallpapers/$wallpaper" &
 polybar -c .config/polybar/config top &
 
 # Layout
-setxkbmap fr &
+setxkbmap fr
 
 # Merging Xressources
-xrdb -merge /home/leo/.Xresources &
+xrdb -merge /home/leo/.Xresources
 
 # Shortkeys
 sxhkd &
