@@ -15,6 +15,12 @@ bspc rule -a feh state=floating
 bspc rule -a Emacs state=tiled
 bspc rule -a Zathura state=tiled
 
+# Shortkeys
+sxhkd &
+
+# Layout
+setxkbmap fr
+
 # Set the cool cursor
 xsetroot -cursor_name left_ptr &
 
@@ -27,11 +33,5 @@ nitrogen --set-zoom-fill "/home/leo/.wallpapers/$wallpaper" &
 # Launching the bar
 polybar -c .config/polybar/config top &
 
-# Layout
-setxkbmap fr
-
 # Merging Xressources
 xrdb -merge /home/leo/.Xresources
-
-# Shortkeys
-sxhkd &
