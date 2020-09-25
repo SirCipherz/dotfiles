@@ -44,3 +44,11 @@ super + {Left,Down,Up,Right}
 # expand a window by moving one of its side outward
 super + alt + {j,k,i,l}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# focus to the next window
+super + Tab
+      bspc node -f next.local
+
+# focus to the next window
+super + shift + Tab
+      bspc node -f prev.local

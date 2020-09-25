@@ -58,6 +58,7 @@ Sudo can be needed if you are not in the portage group
 - focus to the given monitor (super + 1-0)
 - move a floating window (super + arrow)
 - expend a window (super + alt + j/k/i/l)
+- focus to the next/previous window (super + (shift +) tab)
 
 ### zshrc
 - ohmyzsh (gentoo's theme)
