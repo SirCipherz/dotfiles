@@ -27,7 +27,7 @@ Sudo can be needed if you are not in the portage group
 ### bspwm
 - Apply the wallpaper
 - Name the monitors
-- 0px border width
+- 1px border width
 - 12px window gap
 - emacs and zathura start tiled
 - feh starts floating
