@@ -5,3 +5,5 @@ dev-python/pypeg2 ~amd64
 app-misc/nnn ~amd64
 dev-db/sqlitebrowser ~amd64
 app-editors/qhexedit2 ~amd64
+dev-util/radare2 ~amd64
+dev-libs/capstone ~amd64
