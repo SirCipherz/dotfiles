@@ -4,14 +4,14 @@ super + Return
 
 # program launcher
 super + d
-	dmenu_run
+	dmenu_run -l 9
 
 # slock
 ctrl + shift + l
 	slock
 # shutdown
 super + shift + s
-      sudo $(echo -n "poweroff\nreboot" | dmenu)
+      sudo $(echo -n "poweroff\nreboot" | dmenu -l 2)
 
 # make sxhkd reload its configuration files:
 super + Escape
