@@ -57,7 +57,8 @@ Sudo can be needed if you are not in the portage group
 - send the window to the given monitor (super + shift + 1-0)
 - focus to the given monitor (super + 1-0)
 - move a floating window (super + arrow)
-- expend a window (super + alt + j/k/i/l)
+- expend a window (super + alt + Left/Down/Up/Right)
+- retract a window (super + shift + Left/Down/Up/Right)
 - focus to the next/previous window (super + (shift +) tab)
 
 ### zshrc
