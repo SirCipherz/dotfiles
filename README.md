@@ -28,7 +28,7 @@ Sudo can be needed if you are not in the portage group
 - Apply the wallpaper
 - Name the monitors
 - 1px border width
-- 12px window gap
+- 16px window gap
 - emacs and zathura start tiled
 - feh starts floating
 - launch sxhkd
