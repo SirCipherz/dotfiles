@@ -7,7 +7,7 @@ games-misc/fortune-mod-kernelcookies offensive
 dev-vcs/git emacs mediawiki
 sys-boot/grub fonts mount themes truetype sdl
 app-admin/keepassxc autotype browser
-media-sound/mpd curl dbus ffmpeg flac nfs openal opus pipe soundcloud unicode
+media-sound/mpd curl dbus ffmpeg flac nfs openal opus pipe soundcloud unicode -ipv6 -soundcloud
 media-sound/ncmpcpp visualizer
 mail-client/neomutt notmuch
 x11-terms/rxvt-unicode 256-color blink font-styles mousewheel unicode3 fading-colors xft
