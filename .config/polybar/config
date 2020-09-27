@@ -33,12 +33,12 @@ padding = 2
 module-margin = 0
 
 ; Fonts are defined using <font-name>;<vertical-offset>
-font-0 = xos4 Terminus:style=Regular:pixelsize=9;2
+font-0 = Terminus:style=Regular:pixelsize=9;2
 
 ; Modules are added to one of the available blocks
-modules-right = battery date 
-modules-center = bspwm
-;modules-left = mpd
+modules-right = headphones battery date
+;modules-center =
+modules-left = bspwm xwindow
 
 ;separator =
 ; This value is used to add extra spacing between elements
@@ -141,3 +141,15 @@ label-offline = mpd is offline
 
 background = #2d6b6e
 foreground = ${colors.foreground}
+
+[module/headphones]
+type = custom/script
+exec = ~/.config/polybar/headphones.sh
+label = " %output% "
+interval = 1
+format-background = ${colors.nord7}
+
+[module/xwindow]
+type = internal/xwindow
+label = " %title:0:30:...% "
+format-background = ${colors.nord8}
