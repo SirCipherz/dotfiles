@@ -1,5 +1,5 @@
 # Sir Cipherz's dotfiles
-![Image](https://framagit.org/SirCipherz/dotfiles/-/raw/master/screenshots/main.png)
+![Image](https://github.com/SirCipherz/dotfiles/blob/master/screenshots/main.png)
 
 Here are my dotfiles for my laptop, feel free to steal this and tweak it.
 
