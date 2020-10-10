@@ -41,9 +41,5 @@ xterm*decTerminalID: vt340
 ! Disable the bar in urxvt
 URxvt.scrollBar: false
 
-! Cursor theme
-!Xcursor.theme: oreo_blue_cursor
-
 ! font
 emacs.font:	Liberation Mono 10
-! st.alpha:	1.0
