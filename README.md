@@ -10,6 +10,7 @@ Here are my dotfiles for my laptop, feel free to steal this and tweak it.
 - sxhkd
 - portage (use flags and other stuff included)
 - zsh
+- fish
 - emacs
 - vim
 - Xressources
@@ -66,6 +67,10 @@ Sudo can be needed if you are not in the portage group
 - search with duckduckgo in badwolf
 - extraction function
 - A lot of aliases
+
+### fish
+- ohmyfish
+- a lot of aliases
 
 ### emacs
 - removing menubar and tool bar
