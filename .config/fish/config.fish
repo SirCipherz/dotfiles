@@ -15,6 +15,7 @@ alias cpdat='xclip -se clip'
 alias grep='grep --color=auto'
 alias cpb='rsync --info=progress2'
 alias upgrade="sudo emerge -uDNa --with-bdeps=y @world"
+alias c='clear'
 
 # The boring but useful security guys
 alias rm='rm -i'
