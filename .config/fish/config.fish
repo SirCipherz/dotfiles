@@ -31,3 +31,8 @@ alias poweroff='sudo poweroff'
 alias plz='sudo'
 alias emerge='sudo emerge'
 alias nmtui='sudo nmtui'
+
+#
+# Variables
+#
+export editor="emacs"
