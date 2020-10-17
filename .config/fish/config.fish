@@ -24,6 +24,7 @@ alias cp='cp -i'
 
 alias mkdir='mkdir -p'
 alias mount='mount | column -t'
+alias header='curl -I'
 
 # The sudo bros
 alias reboot='sudo reboot'
