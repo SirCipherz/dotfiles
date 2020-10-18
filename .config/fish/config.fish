@@ -21,6 +21,7 @@ alias c='clear'
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
+alias wget='wget -c'
 
 alias mkdir='mkdir -p'
 alias mount='mount | column -t'
