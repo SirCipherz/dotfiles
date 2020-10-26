@@ -27,3 +27,5 @@ app-crypt/gnupg tools doc
 app-admin/keepassxc -autotype -browser -network
 media-gfx/feh exif -curl
 dev-qt/qtmultimedia widgets
+app-admin/doas timestamp
+>=dev-libs/libpcre2-10.35 pcre32
