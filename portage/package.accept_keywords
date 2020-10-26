@@ -7,3 +7,4 @@ dev-db/sqlitebrowser ~amd64
 app-editors/qhexedit2 ~amd64
 dev-util/radare2 ~amd64
 dev-libs/capstone ~amd64
+games-misc/cowsay ~amd64
