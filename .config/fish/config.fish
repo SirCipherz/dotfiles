@@ -6,6 +6,7 @@
 alias qlop='qlop -H'
 alias du='du -h'
 alias df='df -h'
+alias free='free -h'
 alias ls='ls -lhB --color=auto'
 
 # The time savers
