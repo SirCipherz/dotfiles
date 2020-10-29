@@ -18,6 +18,7 @@ alias cpb='rsync --info=progress2'
 alias upgrade="sudo emerge -uDNa --with-bdeps=y @world"
 alias c='clear'
 alias myip='curl ifconfig.me'
+alias reload='exec fish'
 
 # The boring but useful security guys
 alias rm='rm -i'
