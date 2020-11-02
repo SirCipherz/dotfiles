@@ -27,7 +27,6 @@ alias cp='cp -i'
 alias wget='wget -c'
 
 alias mkdir='mkdir -p'
-alias mount='mount | column -t'
 alias header='curl -I'
 
 # The sudo bros
