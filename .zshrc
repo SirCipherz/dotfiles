@@ -55,9 +55,8 @@ alias upgrade="sudo emerge -uDNa --with-bdeps=y @world"
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
-
+alias wget='wget -c'
 alias mkdir='mkdir -p'
-alias mount='mount | column -t'
 
 # The sudo bros
 alias reboot='sudo reboot'
@@ -65,3 +64,7 @@ alias poweroff='sudo poweroff'
 alias plz='sudo'
 alias emerge='sudo emerge'
 alias nmtui='sudo nmtui'
+
+# Variables
+export EDITOR="vim"
+export PATH=$PATH:/usr/local/go/bin:~/.local/bin
