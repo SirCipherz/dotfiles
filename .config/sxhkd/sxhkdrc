@@ -6,6 +6,10 @@ super + Return
 super + d
 	dmenu_run -l 9
 
+# passmenu launcher
+super + p
+      passmenu -l 4
+
 # slock
 ctrl + shift + l
 	slock
