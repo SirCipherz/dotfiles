@@ -34,3 +34,8 @@ dev-libs/libpcre pcre32
 >=dev-libs/libpcre2-10.35 pcre32
 media-fonts/fontawesome ttf
 x11-misc/polybar network
+mail-client/mutt pop gpgme
+media-video/mplayer libcaca
+media-gfx/gimp heif jpeg2k python webp
+app-admin/pass dmenu emacs zsh-completion importers
+www-client/seamonkey -calendar -chatzilla
