@@ -8,3 +8,6 @@ app-editors/qhexedit2 ~amd64
 dev-util/radare2 ~amd64
 dev-libs/capstone ~amd64
 games-misc/cowsay ~amd64
+gui-apps/tuigreet ~amd64
+gui-libs/greetd ~amd64
+x11-misc/qarma ~amd64
