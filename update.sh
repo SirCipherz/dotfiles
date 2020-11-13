@@ -6,7 +6,6 @@ cp -v -r ~/.wallpapers ./               # Wallpaper
 cp -v -r ~/.config/polybar/ ./.config/  # Polybar
 cp -v ~/.config/picom.conf ./.config/   # Compton
 cp -v -r ~/.config/sxhkd ./.config/     # sxhkd
-cp -v -r ~/.config/fish ./.config/      # fish shell
 
 # xdg
 cp -v ~/.config/user-dirs.dirs ./.config/ # xdg default directories
