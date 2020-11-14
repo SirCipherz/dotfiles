@@ -1,0 +1,3 @@
+#!/bin/bash
+qarma --password | gpg -d --passphrase-fd 0 ~/.local/share/enc && exit 0
+qarma --error --text="wrong password, run unlock-gpg to retry" --title="Error"

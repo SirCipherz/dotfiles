@@ -35,3 +35,6 @@ polybar -c .config/polybar/config top &
 
 # Merging Xressources
 xrdb -merge /home/leo/.Xresources
+
+# Unlock gpg
+~/.local/bin/unlock-gpg

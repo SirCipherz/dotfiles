@@ -22,3 +22,6 @@ cp -v /etc/portage/package.license portage/package.license                  # li
 cp -v /etc/portage/package.mask portage/package.mask                        # mask
 cp -v /etc/portage/package.use portage/package.use                          # use
 cp -rv /etc/portage/savedconfig portage/                                    # savedconfig
+
+# .local
+cp -v ~/.local/bin/unlock-gpg ./.local/bin/

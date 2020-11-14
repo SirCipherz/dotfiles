@@ -2,6 +2,7 @@
 
 cp -vr .config ~/
 cp -vr .wallpapers ~/
+cp -vr .local/ ~/
 
 cp -v .emacs ~/
 cp -v .vimrc ~/
