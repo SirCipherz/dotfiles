@@ -38,3 +38,7 @@ xrdb -merge /home/leo/.Xresources
 
 # Unlock gpg
 ~/.local/bin/unlock-gpg
+
+# Start mpd
+killall mpd
+mpd &
