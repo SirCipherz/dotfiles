@@ -12,7 +12,6 @@ cp -v ~/.config/user-dirs.dirs ./.config/ # xdg default directories
 
 # others
 cp -v ~/.zshrc ./                       # zsh
-cp -v ~/.emacs ./                       # emacs
 cp -v ~/.Xresources ./                  # Xresources
 
 # portage
@@ -25,3 +24,4 @@ cp -rv /etc/portage/savedconfig portage/                                    # sa
 
 # .local
 cp -v ~/.local/bin/unlock-gpg ./.local/bin/
+cp -vr ~/.local/share/wallpapers ./.local/share/
