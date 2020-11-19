@@ -40,6 +40,3 @@ xterm*decTerminalID: vt340
 
 ! Disable the bar in urxvt
 URxvt.scrollBar: false
-
-! font
-emacs.font:	Liberation Mono 10
