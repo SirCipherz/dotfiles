@@ -40,3 +40,6 @@ xterm*decTerminalID: vt340
 
 ! Disable the bar in urxvt
 URxvt.scrollBar: false
+
+! Xterm clipboard support
+XTerm*selectToClipboard: true
