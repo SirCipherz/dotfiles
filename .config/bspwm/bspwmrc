@@ -12,7 +12,6 @@ bspc config gapless_monocle      true
 
 # Rules
 bspc rule -a feh state=floating
-bspc rule -a Emacs state=tiled
 bspc rule -a Zathura state=tiled
 
 # Shortkeys
@@ -27,7 +26,7 @@ picom &
 
 # Wallpaper
 killall nitrogen
-nitrogen --set-zoom-fill "/home/leo/.wallpapers/$wallpaper" &
+nitrogen --set-zoom-fill "$HOME/.local/share/wallpapers/$wallpaper" &
 
 # Launching the bar
 killall polybar
@@ -37,7 +36,7 @@ polybar -c .config/polybar/config top &
 xrdb -merge /home/leo/.Xresources
 
 # Unlock gpg
-~/.local/bin/unlock-gpg
+qarma --password | gpg --passphrase-fd 0 -d $HOME/.local/share/enc &
 
 # Start mpd
 killall mpd
