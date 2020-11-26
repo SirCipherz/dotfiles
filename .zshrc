@@ -1,3 +1,6 @@
+#!/bin/sh
+
+# zsh stuff
 export ZSH="/home/leo/.oh-my-zsh"
 ZSH_THEME="gentoo"
 plugins=(git wakeonlan)
@@ -68,3 +71,7 @@ alias nmtui='sudo nmtui'
 # Variables
 export EDITOR="vim"
 export PATH=$PATH:/usr/local/go/bin:~/.local/bin
+export GOPATH=$HOME/.local/share/go
+export NOTMUCH_CONFIG=$HOME/.config/notmuch
+export PASSWORD_STORE_DIR=$HOME/.local/share/password-store
+export MPLAYER_HOME=$HOME/.config/mplayer
