@@ -16,6 +16,7 @@ cp -v ~/.Xresources ./                  # Xresources
 
 # .local
 cp -vr ~/.local/share/wallpapers ./.local/share/
+cp -vr ~/.local/share/nnn/ ./.local/share/
 
 [[ $1 == "--portage" ]] || exit 0
 
