@@ -5,7 +5,7 @@ cp -vr ~/.config/bspwm ./.config/       # bspwm config file
 cp -vr ~/.config/polybar/ ./.config/    # Polybar
 cp -v ~/.config/picom.conf ./.config/   # Compton
 cp -vr ~/.config/sxhkd ./.config/       # sxhkd
-cp -vr ~/.config/mpv/script* ./.config/ # mpv
+cp -vr ~/.config/mpv/script* ./.config/mpv # mpv
 
 # xdg
 cp -v ~/.config/user-dirs.dirs ./.config/ # xdg default directories
