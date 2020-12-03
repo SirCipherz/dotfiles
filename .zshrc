@@ -44,7 +44,7 @@ search (){
 alias qlop='qlop -H'
 alias du='du -h'
 alias df='df -h'
-alias ls='ls -lhB --color=auto'
+alias ls='lsd -lh --icon never'
 
 # The time savers
 alias ..='cd ..'
