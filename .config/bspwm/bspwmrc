@@ -11,7 +11,7 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 # Rules
-bspc rule -a feh state=floating
+bspc rule -a feh state=tiled
 bspc rule -a Zathura state=tiled
 
 # Shortkeys
