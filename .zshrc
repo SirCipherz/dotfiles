@@ -73,7 +73,6 @@ export EDITOR="vim"
 export PATH=$PATH:/usr/local/go/bin:~/.local/bin
 export GOPATH=$HOME/.local/share/go
 export NOTMUCH_CONFIG=$HOME/.config/notmuch
-export PASSWORD_STORE_DIR=$HOME/.local/share/password-store
 export MPLAYER_HOME=$HOME/.config/mplayer
 
 source $HOME/.local/share/nnn/quitcd
