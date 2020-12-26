@@ -39,6 +39,7 @@ search (){
 #
 # Alias
 #
+alias fernande='ffplay ~/.je-bande.mp3'
 
 # The human readables
 alias qlop='qlop -H'
@@ -67,6 +68,11 @@ alias poweroff='sudo poweroff'
 alias plz='sudo'
 alias emerge='sudo emerge'
 alias nmtui='sudo nmtui'
+
+# ls aliases
+alias lsl="ls --date relative"
+alias lst="ls --tree"
+alias lsa="ls -A"
 
 # Variables
 export EDITOR="vim"
