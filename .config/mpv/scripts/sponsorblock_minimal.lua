@@ -7,7 +7,7 @@ local options = {
     API = "https://sponsor.ajay.app/api/skipSegments",
 
     -- Categories to fetch and skip
-    categories = '"sponsor","intro","outro","interaction","selfpromo"'
+    categories = '"sponsor"'
 }
 
 function getranges()
