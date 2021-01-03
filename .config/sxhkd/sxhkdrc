@@ -8,8 +8,7 @@ super + d
 
 # passmenu launcher
 super + p
-    export PASSWORD_STORE_DIR=$HOME/.local/share/password-store
-    passmenu -l 4
+        passmenu -l 4
 
 # slock
 ctrl + shift + l
