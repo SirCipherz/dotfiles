@@ -1,0 +1,19 @@
+[global]
+    padding = 16
+    horizontal_padding = 16
+    shrink = no
+    geometry = "300x60-20+48"
+
+    markup = full
+    format = "<b>%s</b>\n %b"
+    background = "#0e0e0f"
+    foreground = "#fcfcfc"
+
+[urgency_low]
+    timeout = 3
+
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+
+# vim: ft=cfg
