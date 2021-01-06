@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=PDF reader
+Exec=/usr/bin/zathura %u
+MimeType=x-scheme-handler/https;x-scheme-handler/http;text/html;

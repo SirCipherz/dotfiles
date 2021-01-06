@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=vi improved
+Exec=/usr/bin/vim %u
