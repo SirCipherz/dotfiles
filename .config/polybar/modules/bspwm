@@ -1,0 +1,19 @@
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = 
+label-focused-padding = 1
+label-focused-background = ${colors.background}
+label-focused-foreground = ${colors.alt-foreground}
+
+label-occupied = 
+label-occupied-padding = 1
+label-occupied-background = ${colors.background}
+label-occupied-foreground = ${colors.alt-foreground}
+
+label-empty = 
+label-empty-padding = 1
+label-empty-background = ${colors.background}
+label-empty-foreground = ${colors.alt-foreground}
+
+; vim:ft=dosini

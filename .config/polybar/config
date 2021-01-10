@@ -1,18 +1,12 @@
-[colors]
-;background = #00000000
-;foreground = #D8DEE9
-background = #8026272b
-foreground = #ffffff
+include-file = $HOME/.config/polybar/modules/bspwm
+include-file = $HOME/.config/polybar/modules/date
+include-file = $HOME/.config/polybar/modules/battery
+include-file = $HOME/.config/polybar/modules/wifi
+include-file = $HOME/.config/polybar/modules/alsa
+include-file = $HOME/.config/polybar/modules/xwindow
+include-file = $HOME/.config/polybar/modules/round
 
-bg-2 = #376466
-bg-3 = #434c5e
-bg-4 = #4c566a
-nord7 = #1e4749
-nord8 = #275a5d
-nord9 = #81a1c1
-nord10 = #448b94
-fg-2 = #e5e9f0
-fg-3 = #eceff4
+include-file = $HOME/.config/polybar/colors
 
 [bar/top]
 override-redirect = false
@@ -20,44 +14,34 @@ bottom = false
 fixed-center = true
 width = 100%
 height = 18
-background = ${colors.background}
+background = ${colors.trans}
 foreground = ${colors.foreground}
-radius = 0.0
 line-size = 0
 line-color = #f00
 
-offset-x = 0
-offset-y = 0
+offset-x = 3
+offset-y = 3
 
-; Number of spaces to add at the beginning/end of the bar
-padding = 2
+padding = 3
 
-; Number of spaces to add before/after each module
 module-margin = 0
 
-; Fonts are defined using <font-name>;<vertical-offset>
 font-0 = Noto Sans:pixelsize=8;2
 font-1 = sircipherz\-icons:pixelsize=10;1
+font-2 = Powerline Extra Symbols:pixelsize=12;3
 
-; Modules are added to one of the available blocks
-modules-right = wifi alsa battery date
-modules-center = xwindow
-modules-left = bspwm
+modules-right = round-left wifi alsa battery round-right
+modules-center = round-left date round-right
+modules-left = round-left bspwm round-right
 
-;separator =
-; This value is used to add extra spacing between elements
-; @deprecated: This parameter will be removed in an upcoming version
 spacing = 0
-; Opacity value between 0.0 and 1.0 used on fade in/out
 dim-value = 1.0
 
-; Position of the system tray window
 tray-position = left
-tray-maxsize = 15
+tray-maxsize = 0
 tray-background = ${colors.nord10}
 tray-offset-x = 0
 tray-offset-y = 0
-; Pad the sides of each tray icon
 tray-padding = 0
 
 [global/wm]
@@ -70,123 +54,8 @@ label-focused-underline= ${colors.background}
 throttle-output = 5
 throttle-output-for = 10
 
-; Time in milliseconds that the input handler will wait between processing events
 throttle-input-for = 30label-focused-underline= ${colors.red}
-
-
-; Reload upon receiving XCB_RANDR_SCREEN_CHANGE_NOTIFY events
 screenchange-reload = true
-
-; Enables pseudo-transparency for the bar
-; If set to true the bar can be transparent without a compositor.
 pseudo-transparency = true
 
-[module/bspwm]
-type = internal/bspwm
-
-label-focused = %name%
-label-focused-padding = 2
-label-focused-background = ${colors.nord10}
-
-label-occupied = %index%
-label-occupied-padding = 2
-
-label-empty = %index%
-label-empty-padding = 2
-
-[module/xwindow]
-type = internal/xwindow
-label = " %title:0:50:...% "
-
-[module/date]
-type = internal/date
-interval = 15
-format =  <label>
-time = %a %d %B - %H:%M
-label = %time%
-label-padding = 2
-
-[module/battery]
-type = internal/battery
-battery = BAT0
-adapter = AC
-full-at = 99
-
-poll-interval = 5
-format-charging =  <label-charging>
-format-discharging = <ramp-capacity>  <label-discharging>
-format-full = <ramp-capacity>  <label-full>
-format-charging-padding = 3
-format-discharging-padding = 3
-format-full-padding = 3
-
-label-charging = %percentage%%
-label-discharging = %percentage%%
-label-full = %percentage%%
-
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-3 = 
-ramp-capacity-4 = 
-
-[module/mpd]
-type = internal/mpd
-format-online = <label-song>
-
-; Host where mpd is running (either ip or domain name)
-; Can also be the full path to a unix socket where mpd is running.
-host = 127.0.0.1
-port = 6600
-
-; Seconds to sleep between progressbar/song timer sync
-; Default: 1
-interval = 3
-
-label-song = %artist% - %title%
-label-offline = mpd is offline
-
-background = #2d6b6e
-foreground = ${colors.foreground}
-
-[module/headphones]
-type = custom/script
-exec = ~/.config/polybar/headphones.sh
-label = %output%
-interval = 1
-
-[module/wifi]
-type = internal/network
-
-interface = wlan0
-interval = 2
-
-format-connected =  <label-connected>
-format-connected-padding = 3
-format-disconnected = <label-disconnected>
-format-disconnected-padding = 3
-format-packetloss = <label-connected> :/
-format-packetloss-padding = 3
-
-label-connected = %downspeed%
-label-connected-foreground = ${colors.foreground}
-label-disconnected = disconnected
-label-disconnected-foreground = ${colors.foreground}
-label-packetloss = %essid%
-label-packetloss-foreground = ${colors.foreground}
-
-[module/alsa]
-type = internal/alsa
-
-master-soundcard = default
-speaker-soundcard = default
-
-interval = 5
-
-format-volume = <ramp-volume> <label-volume>
-
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
-
-label-muted = 
+; vim:ft=dosini

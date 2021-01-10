@@ -1,0 +1,27 @@
+[module/wifi]
+type = internal/network
+
+interface = wlan0
+interval = 2
+
+format-connected =  <label-connected>
+format-connected-padding = 3
+format-disconnected = <label-disconnected>
+format-disconnected-padding = 3
+format-packetloss = <label-connected> :/
+format-packetloss-padding = 3
+
+format-connected-background = ${colors.background}
+format-connected-foreground = ${colors.alt-foreground}
+
+format-disconnected-background = ${colors.background}
+format-disconnected-foreground = ${colors.alt-foreground}
+
+label-connected = %downspeed%
+label-connected-foreground = ${colors.alt-foreground}
+label-disconnected = disconnected
+label-disconnected-foreground = ${colors.alt-foreground}
+label-packetloss = %essid%
+label-packetloss-foreground = ${colors.alt-foreground}
+
+; vim:ft=dosini

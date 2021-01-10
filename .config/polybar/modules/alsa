@@ -1,0 +1,19 @@
+[module/alsa]
+type = internal/alsa
+format-volume-background = ${colors.background}
+format-volume-foreground = ${colors.alt-foreground}
+
+master-soundcard = default
+speaker-soundcard = default
+
+interval = 5
+
+format-volume = <ramp-volume> <label-volume>
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+label-muted = a
+
+; vim:ft=dosini
