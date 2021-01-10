@@ -19,6 +19,7 @@ cp -v ~/.Xresources ./                  # Xresources
 cp -vr ~/.local/share/wallpapers ./.local/share/
 cp -vr ~/.local/share/nnn/ ./.local/share/
 cp -vr ~/.local/bin/playvid ./.local/bin
+cp -vr ~/.local/share/applications/ ./.local/share/
 
 [[ $1 == "--portage" ]] || exit 0
 
