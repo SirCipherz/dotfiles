@@ -27,7 +27,7 @@ padding = 3
 module-margin = 0
 
 font-0 = Noto Sans:pixelsize=8;2
-font-1 = sircipherz\-icons:pixelsize=10;1
+font-1 = fontello:pixelsize=10;1
 font-2 = Powerline Extra Symbols:pixelsize=12;3
 
 modules-right = round-left wifi alsa battery round-right

@@ -16,4 +16,9 @@ label-empty-padding = 1
 label-empty-background = ${colors.background}
 label-empty-foreground = ${colors.alt-foreground}
 
+label-urgent = 
+label-urgent-padding = 1
+label-urgent-background = ${colors.background}
+label-urgent-foreground = ${colors.alt-foreground}
+
 ; vim:ft=dosini
