@@ -39,6 +39,7 @@ rmnl (){
 # Alias
 #
 alias fernande='ffplay ~/.je-bande.mp3'
+alias sudo="doas"
 
 # The human readables
 alias qlop='qlop -H'
@@ -69,7 +70,7 @@ alias emerge='sudo emerge'
 alias nmtui='sudo nmtui'
 
 # ls aliases
-alias lsl="ls --date relative"
+alias lsl="ls --date relative -t"
 alias lst="ls --tree"
 alias lsa="ls -A"
 
