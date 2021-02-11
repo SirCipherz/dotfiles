@@ -7,6 +7,7 @@ cp -v ~/.config/picom.conf ./.config/   # Compton
 cp -vr ~/.config/sxhkd ./.config/       # sxhkd
 cp -vr ~/.config/mpv/script* ./.config/mpv # mpv
 cp -vr ~/.config/dunst/ ./.config/
+cp -vr ~/.config/zathura/ ./.config/
 
 # xdg
 cp -v ~/.config/user-dirs.dirs ./.config/ # xdg default directories

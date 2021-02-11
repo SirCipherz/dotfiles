@@ -1,0 +1,21 @@
+set index-bg                    "#0e0e0f"
+set index-fg                    "#fcfcfc"
+set index-active-bg             "#44475a"
+set index-active-fg             "#fcfcfc"
+
+set inputbar-bg                 "#0e0e0f"
+set inputbar-fg                 "#fcfcfc"
+set statusbar-bg                "#0e0e0f"
+set statusbar-fg                "#fcfcfc"
+
+set default-bg                  "#0e0e0f"
+set default-fg                  "#fcfcfc"
+
+set render-loading              true
+set render-loading-fg           "#0e0e0f"
+set render-loading-bg           "#fcfcfc"
+
+set recolor-lightcolor          "#0e0e0f"
+set recolor-darkcolor           "#fcfcfc"
+
+set recolor true
