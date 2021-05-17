@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=nvlc
+Comment=Launches vlc music player (cli version)
+Icon=vlc
+Terminal=true
+Exec=nvlc

@@ -4,11 +4,11 @@ super + Return
 
 # program launcher
 super + d
-	dmenu_run -l 9
+	PATH="$PATH:$HOME/.local/bin/" dmenu_run -l 9
 
 # passmenu launcher
 super + p
-        passmenu -l 4
+        setxkbmap fr && rofi-pass
 
 # slock
 ctrl + shift + l
@@ -33,13 +33,13 @@ super + k
 super + {t,shift + t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
-# send to the given desktop
-super + shift + {1-9,0}
-	bspc node -d '^{1-9,10}'
-
 # focus to the given desktop
 super + {1-9,0}
       bspc desktop -f {1-9,10}
+
+# send to the given desktop
+super + shift + {1-9,0}
+	bspc node -d '^{1-9,10}'
 
 # move a floating window
 super + {Left,Down,Up,Right}

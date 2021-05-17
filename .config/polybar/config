@@ -39,7 +39,7 @@ dim-value = 1.0
 
 tray-position = left
 tray-maxsize = 0
-tray-background = ${colors.nord10}
+tray-background = ${colors.trans}
 tray-offset-x = 0
 tray-offset-y = 0
 tray-padding = 0
