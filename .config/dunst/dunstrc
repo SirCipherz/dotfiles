@@ -1,16 +1,31 @@
 [global]
+    monitor = 1
+    geometry = "400x100-440+45"
     padding = 16
     horizontal_padding = 16
-    shrink = no
-    geometry = "300x60-20+48"
 
+    font = Source Code Pro 12
+    format = "<b>%s</b>\n%b"
     markup = full
-    format = "<b>%s</b>\n %b"
-    background = "#0e0e0f"
-    foreground = "#fcfcfc"
+
+    alignment = left
+    icon_position = left
+    corner_radius = 0
 
 [urgency_low]
-    timeout = 3
+    timeout = 2
+    background = "#1E2021"
+    foreground = "#FCFCFC"
+
+[urgency_normal]
+    timeout = 4 
+    background = "#1E2021"
+    foreground = "#FCFCFC"
+
+[urgency_critical]
+    timeout = 0
+    background = "#731D1E"
+    foreground = "#FCFCFC"
 
 [shortcuts]
     close = ctrl+space

@@ -1,7 +1,7 @@
 [module/date]
 type = internal/date
 interval = 15
-format =  <label>
+format =  <label>
 time = %a %d %B - %H:%M
 label = %time%
 label-padding = 2

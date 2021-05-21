@@ -64,11 +64,12 @@ setopt inc_append_history
 setopt hist_reduce_blanks
 
 # history search
-autoload -U history-search-end
-zle -N history-beginning-search-backward-end history-search-end
-zle -N history-beginning-search-forward-end history-search-end
-bindkey "^[[A" history-beginning-search-backward-end
-bindkey "^[[B" history-beginning-search-forward-end
+autoload -U up-line-or-beginning-search
+autoload -U down-line-or-beginning-search
+zle -N up-line-or-beginning-search
+zle -N down-line-or-beginning-search
+bindkey "$key[Up]" up-line-or-beginning-search
+bindkey "$key[Down]" down-line-or-beginning-search
 
 # rewrites
 alias cat='bat'
@@ -77,7 +78,7 @@ alias cat='bat'
 
 # adding arguments by default
 alias rsync="rsync --info=progress2 -rzP"
-alias ls='lsd -lh --color=auto'
+alias ls='lsd -lh --color=auto --icon=never'
 alias wget='wget -c'
 alias reboot='sudo reboot'
 alias df='df -h'

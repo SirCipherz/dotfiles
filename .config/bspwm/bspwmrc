@@ -1,6 +1,4 @@
 #!/bin/bash
-wallpaper="gal_in_snow.jpg"
-
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 
 bspc config border_width        1
@@ -12,6 +10,7 @@ bspc config gapless_monocle      true
 
 # Rules
 bspc rule -a feh state=tiled
+bspc rule -a Yad state=floating
 bspc rule -a Zathura state=tiled
 bspc rule -a Discord follow=off
 
@@ -26,13 +25,9 @@ sxhkd &
 # Set the cool cursor
 xsetroot -cursor_name left_ptr &
 
-# Compositor
-killall picom
-picom &
-
 # Wallpaper
 killall nitrogen
-nitrogen --set-zoom-fill "$HOME/.local/share/wallpapers/$wallpaper" &
+nitrogen --restore
 
 # Launching the bar
 killall polybar
@@ -40,13 +35,6 @@ polybar -c .config/polybar/config top &
 
 # Merging Xressources
 xrdb -merge $HOME/.Xresources
-
-# Unlock gpg
-qarma --password | gpg --passphrase-fd 0 -d $HOME/.local/share/enc &
-
-# Start mpd
-killall mpd
-mpd &
 
 # redshift
 killall redshift

@@ -36,7 +36,11 @@ function skip_ads(name,pos)
 	if pos ~= nil then
 		for k,v in pairs(ranges) do
 			if tonumber(k) <= pos and tonumber(v) > pos then
+				--this message may sometimes be wrong
+				--it only seems to be a visual thing though
         			mp.osd_message("[sponsorblock] skipping forward "..math.floor(tonumber(v)-mp.get_property("time-pos")).."s")
+				--need to do the +0.01 otherwise mpv will start spamming skip sometimes
+				--example: https://www.youtube.com/watch?v=4ypMJzeNooo
 				mp.set_property("time-pos",tonumber(v)+0.01)
             			return
     			end
@@ -46,12 +50,21 @@ function skip_ads(name,pos)
 end
 
 function file_loaded()
-	local video_path = mp.get_property("path")
-	local youtube_id1 = string.match(video_path, "https?://youtu%.be/([%w-_]+).*")
-	local youtube_id2 = string.match(video_path, "https?://w?w?w?%.?youtube%.com/v/([%w-_]+).*")
-	local youtube_id3 = string.match(video_path, "/watch.*[?&]v=([%w-_]+).*")
-	local youtube_id4 = string.match(video_path, "/embed/([%w-_]+).*")
-	youtube_id = youtube_id1 or youtube_id2 or youtube_id3 or youtube_id4
+	local video_path = mp.get_property("path", "")
+	local video_referer = string.match(mp.get_property("http-header-fields", ""), "Referer:([^,]+)") or ""
+
+	local urls = {
+	    "https?://youtu%.be/([%w-_]+).*",
+	    "https?://w?w?w?%.?youtube%.com/v/([%w-_]+).*",
+	    "/watch.*[?&]v=([%w-_]+).*",
+	    "/embed/([%w-_]+).*",
+	    "-([%w-_]+)%."
+	}
+	youtube_id = nil
+	for i,url in ipairs(urls) do
+	    youtube_id = youtube_id or string.match(video_path, url) or string.match(video_referer, url)
+	end
+
 	if not youtube_id or string.len(youtube_id) < 11 then return end
 	youtube_id = string.sub(youtube_id, 1, 11)
 

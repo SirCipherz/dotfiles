@@ -27,7 +27,7 @@ padding = 3
 module-margin = 0
 
 font-0 = Noto Sans:pixelsize=8;2
-font-1 = fontello:pixelsize=10;1
+font-1 = fontello:pixelsize=10;2
 font-2 = Powerline Extra Symbols:pixelsize=12;3
 
 modules-right = round-left wifi alsa battery round-right
@@ -58,4 +58,11 @@ throttle-input-for = 30label-focused-underline= ${colors.red}
 screenchange-reload = true
 pseudo-transparency = true
 
+tray-position = none
+tray-maxsize = 6
+tray-background = ${colors.trans}
+tray-offset-x = 3
+tray-offset-y = 3
+tray-padding = 3
+tray-detached = false
 ; vim:ft=dosini
