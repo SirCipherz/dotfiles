@@ -1,0 +1,8 @@
+[module/powermenu]
+type = custom/text
+content = " "
+content-background = ${colors.background}
+content-foreground = ${colors.alt-foreground}
+click-left = "jgmenu --csv-file=$HOME/.config/jgmenu/powermenu.csv >/dev/null 2>&1 & rm ~/.jgmenu-lockfile"
+
+; vim:ft=dosini

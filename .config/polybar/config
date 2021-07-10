@@ -5,6 +5,7 @@ include-file = $HOME/.config/polybar/modules/wifi
 include-file = $HOME/.config/polybar/modules/alsa
 include-file = $HOME/.config/polybar/modules/xwindow
 include-file = $HOME/.config/polybar/modules/round
+include-file = $HOME/.config/polybar/modules/power
 
 include-file = $HOME/.config/polybar/colors
 
@@ -30,7 +31,7 @@ font-0 = Noto Sans:pixelsize=8;2
 font-1 = fontello:pixelsize=10;2
 font-2 = Powerline Extra Symbols:pixelsize=12;3
 
-modules-right = round-left wifi alsa battery round-right
+modules-right = round-left wifi alsa battery powermenu round-right
 modules-center = round-left date round-right
 modules-left = round-left bspwm round-right
 

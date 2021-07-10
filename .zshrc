@@ -87,7 +87,7 @@ alias cp='cp -vir'
 alias rm='rm -vir'
 alias mkdir='mkdir -pv'
 alias emacs='emacs -nw'
-alias grep="grep --color=auto -nH"
+alias grep="grep --color=auto"
 
 # time savers
 alias lsl="lsd -lth --color=auto --date relative --reverse"
@@ -137,3 +137,4 @@ source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh 2>/dev/null
 source $HOME/.local/share/zsh-plugins/copy-pasta.plugin.zsh 2>/dev/null
 source $HOME/.local/share/zsh-plugins/ipfs.zsh 2>/dev/null
 export GPG_KEY="SirCipherz"
+. "$HOME/.cargo/env"
